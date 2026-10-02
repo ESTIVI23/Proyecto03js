@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02</title>
+</head>
+<body>
+    <h1> Lista Estudiantes  </h1>
+
+    <form id="formulario">  <!-- es el formularo  -->
+
+
+
+        <!--  con pattern  defino qe solo agrege letras o numeros  -->
+        <label for="nombre"> nombre </label>
+        <input type="text"  id="nombre"
+               name="nombre"  
+               placeholder="Ingresar Nombre"
+               pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+"
+               required/>
+
+        <label for="apellido"> Apellido </label>
+        <input type="text"  id="apellido"
+               name="apellido"
+                placeholder="Ingresar Apellido"
+                pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]+" 
+                
+               required/>
+
+        <label for="dni">DNI</label>
+        <input type="text"  id="dni"
+                name="dni" 
+                placeholder="Ingresar DNI"
+                pattern="[0-9]+"
+                required/>
+
+        
+             <button type="submit">guardar Estudiante
+
+             </button>
+        
+    </form>
+    <ul id="ListaEstudiantes"></ul>
+
+        <script type="module"
+         src="/src/js/ejercicio02.js"></script>
+</body>
+</html>

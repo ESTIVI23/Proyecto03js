@@ -20,3 +20,10 @@
 ## Archivos: (Creados, Modificados, subidos al GitHub)  ejercicio01.html, ejercicio01.js, servicesEj01.js 
 ##  Uso IA: No.  SI: Se uso como copiloto(intereccion), autogeneracion IA(no hay interaccion), evaluacion(yo le paso codigo)  IA(ChatGPT).
 
+## Castro Ramirez Victor Hugo
+## Ejercico04 proyecto 03  
+##  Buscador de Películas: Filtrar las películas por género seleccionado y mostrar el resultado en una lista utilizando filter() y forEach().
+## Archivos: (Creados, Modificados, subidos al GitHub)  ejercicio01.html, ejercicio01.js, servicesEj01.js 
+##  Uso IA: No.  SI: Se uso como copiloto(intereccion), autogeneracion IA(no hay interaccion), evaluacion(yo le paso codigo)  IA(ChatGPT).
+
+
